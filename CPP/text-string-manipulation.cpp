@@ -1,4 +1,4 @@
-//Created by Jamie Cropley
+//Created by Jamie Cropley.
 
 #include <iostream> //I/O stream library.
 #include <string> //Main library that is relevant to this code in order to manipulate the strings.

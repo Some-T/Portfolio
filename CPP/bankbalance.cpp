@@ -1,4 +1,4 @@
-//Created by Jamie Cropley
+//Created by Jamie Cropley.
 
 #include <iostream>
 #include <string>
