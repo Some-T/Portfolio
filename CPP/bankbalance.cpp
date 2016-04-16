@@ -1,3 +1,5 @@
+//Created by Jamie Cropley
+
 #include <iostream>
 #include <string>
 #include <cstdlib>
