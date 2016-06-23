@@ -1,0 +1,4 @@
+div.table {display: table; display:block; text-align: center;}
+div.tr {border: 1px solid black; display: table-row; display:block; }
+div.th {border: 1px solid black; display: table; display:block;}
+div.td {border: 1px solid black; display: table-cell; display:inline-grid;}
