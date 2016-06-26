@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+  <head>
+    <title>GAME PLACE - Explanation Page</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width; initial-scale=1.0" />
+    <link title="bigsheet" rel="stylesheet" type="text/css" href="css/css-default.css" />
+    <link title="mediumsheet" rel="alternate stylesheet" type="text/css" href="css/css-two.css" />
+    <link title="smallsheet" rel="alternate stylesheet" type="text/css" href="css/css-three.css" />
+    <link title="specialsheet" rel="alternate stylesheet" type="text/css" href="css/css-four.css" />
+    <script type="text/javascript" src="js/CTEC1800-Stylesheets.js" ></script>
+  </head>
+  
+  <body onload="chooseStyleBySize()" onresize="chooseStyleBySize()">
+    
+    
+    <div class="header">
+      <img src="img/main-header-logo.png" alt="Main Header"/>   <h1>GAME PLACE</h1>
+    </div>
+    
+    <div class="nav">
+      <ul>
+        <li><a href="main-index-page.xhtml">Home</a></li>
+        <li><a href="game-review-main.xhtml">Game Reviews</a></li>
+        <li><a href="review-submit-page.xhtml">Submit A Review</a></li>
+        <li><a href="links-page.xhtml">Links</a></li>
+        <li><a href="explanation-page.xhtml">Explanation Page</a></li>
+        <li><a href="contact-page.xhtml">Contact</a></li>
+      </ul>
+      
+      <select onchange="setActiveStyle(this.value)">
+        <option value="bigsheet">Change Layout...</option>
+        <option value="bigsheet">Main Style</option>
+        <option value="mediumsheet">Second Style</option>
+        <option value="smallsheet">Mobile Style</option>
+        <option value="specialsheet">Accessibility Style</option>
+      </select>
+      
+    </div>
+
+    <div class="table">
+      
+      <div class="tr">
+        <div class="th">
+          <h2>Explanation Page</h2>
+        </div>
+      </div>
+      <div class="td7">
+        <h3>Necessary explanations:</h3>
+        <p>1.) Via the Javascript code as per below, on line 116 for the  'onresize' attribute in the Javascript code it specifies: /* You may get validator errors because onresize isn't recognised. Don't worry about this. */ therefore only one existent xhtml error prevelent on each and every xhtml page as per each below validator link reffering to this which as specified is the one and only OK error for every page.</p>
+        <a href="js/CTEC1800-Stylesheets.js">Click here to view the reffered to Javascript code.</a>
+        <p>2.)For each page I styled each CSS Styled Table cell individually, starting from 1 so each would be ascending as 'div.td1','div.td2' etc... as you go through each page on the site then on the stylesheet('s') this allowed for much greater control over the html elements contained within that cell rather than trying to make the layout for the content completely generic to the entire site.</p>
+        <p></p>
+        <p>3.) A non standard element has been used specifically 'word-break: break-word;' on line number 131 for file's located at:</p>
+
+        <a href="css/css-default.css">Click here to view the reffered to CSS code </a>
+
+        <p>and</p>
+
+        <a href="css/css-two.css">Click here to view the reffered to CSS code </a>
+
+        <p>additionally is on line 132 for file located at:</p>
+
+        <a href="css/css-four.css">Click here to view the reffered to CSS code</a>
+
+        <p>For the file css-three.css this the mobile layout and this line of code was not relevant to this stylesheet.</p>
+
+         <p>It specifies in the code: It is a non standard and undocumented way but is kind of an hack to get around the problem I was having with the breaking up of words when the screen is resized. Overall this causes 1 validator error as per validator links below for each css file.</p>
+
+        <p>4.)On the CSS validation pages, errors might come up across them that the following prefixes Android,Chrome,Safari and iOS = -webkit- | Firefox = -moz- | Internet Explorer/Edge = -ms- | Opera =  -o- are on some of the CSS elements this is to allow for full cross browser compatability. To add these in I used the following website:</p>
+
+        <a href="http://autoprefixer.github.io/ ">Auto Prefixer</a>
+
+        <p>Overall however it was only the following CSS style sheet for accessibility where I used a grey (or gray) filter on the images specfically the file css-four.css on lines 370 and 375 there was nothing else where I had to use these prefixes to allow for cross browser compatability. Please click below for the css-four.css code.</p>
+
+        <a href="css/css-four.css">Click here to view the reffered to CSS code</a>
+
+        <h3>Validator Reports:</h3>
+        <p>xHTML:</p>
+        <a href="https://validator.w3.org/check?uri=https://my.tech.dmu.ac.uk/~p15188432/ctec1412/assignment/main-index-page.xhtml">Main Index Page</a>
+        <a href="https://validator.w3.org/check?uri=https://my.tech.dmu.ac.uk/~p15188432/ctec1412/assignment/game-review-main.xhtml">Main Game Review Page</a>
+        <a href="https://validator.w3.org/check?uri=https://my.tech.dmu.ac.uk/~p15188432/ctec1412/assignment/game-review-page1.xhtml">Game Review Page 1</a>
+        <a href="https://validator.w3.org/check?uri=https://my.tech.dmu.ac.uk/~p15188432/ctec1412/assignment/game-review-page2.xhtml">Game Review Page 2</a>
+        <a href="https://validator.w3.org/check?uri=https://my.tech.dmu.ac.uk/~p15188432/ctec1412/assignment/review-submit-page.xhtml">Game Review Submit Page</a>
+        <a href="https://validator.w3.org/check?uri=https://my.tech.dmu.ac.uk/~p15188432/ctec1412/assignment/code-of-conduct.xhtml">Code of Conduct Page</a>
+        <a href="https://validator.w3.org/check?uri=https://my.tech.dmu.ac.uk/~p15188432/ctec1412/assignment/links-page.xhtml">Links Page</a>
+        <a href="https://validator.w3.org/check?uri=https://my.tech.dmu.ac.uk/~p15188432/ctec1412/assignment/explanation-page.xhtml">Explanation Page (This page)</a>
+        <a href="https://validator.w3.org/check?uri=https://my.tech.dmu.ac.uk/~p15188432/ctec1412/assignment/contact-page.xhtml">Contact Page</a>
+        <p>CSS:</p>
+        <a href="https://validator.w3.org/check?uri=https://my.tech.dmu.ac.uk/~p15188432/ctec1412/assignment/css/css-default.css">Main Style</a>
+        <a href="https://validator.w3.org/check?uri=https://my.tech.dmu.ac.uk/~p15188432/ctec1412/assignment/css/css-two.css">Second Style</a>
+        <a href="https://validator.w3.org/check?uri=https://my.tech.dmu.ac.uk/~p15188432/ctec1412/assignment/css/css-three.css">Mobile Style</a>
+        <a href="https://validator.w3.org/check?uri=https://my.tech.dmu.ac.uk/~p15188432/ctec1412/assignment/css/css-four.css">Accessibility Style</a>
+
+
+        <h3>Links to everything:</h3>
+        <a href="main-index-page.xhtml">Main Index Page</a>
+        <a href="game-review-main.xhtml">Main Game Review Page</a>
+        <a href="game-review-page1.xhtml">Game Review Page 1</a>
+        <a href="game-review-page2.xhtml">Game Review Page 2</a>
+        <a href="review-submit-page.xhtml">Game Review Submit Page</a>
+        <p>The below 'Code of Conduct Page' was taken from</p><a href="http://www.businessballs.com/codeofpractice.htm">Business Balls</a>
+        <a href="code-of-conduct.xhtml">Code of Conduct Page</a>
+        <a href="links-page.xhtml">Links Page</a>
+        <a href="explanation-page.xhtml">Explanation Page (This page)</a>
+        <a href="contact-page.xhtml">Contact Page</a>
+        <a href="js/CTEC1800-Stylesheets.js">JavaScript for StyleSwapping</a>
+        <a href="css/css-default.css">Style Sheet 1 (Main)</a>
+        <a href="css/css-two.css">Style Sheet 2</a>
+        <a href="css/css-three.css">Style Sheet 3</a>
+        <a href="css/css-four.css">Style Sheet 4</a>
+        <p>For the images I prefer to use .png format for font like images on websites and .jpg / .jpegs for higher resolution images as I find in my experience they display the pixels better</p>
+        <a href="img/bearsim01.jpg">Bear Simulator Game Review Image 01 - bearsim01.jpg</a>
+        <a href="img/bearsim02.jpg">Bear Simulator Game Review Image 02 - bearsim02.jpg</a>
+        <a href="img/bearsim03.jpg">Bear Simulator Game Review Image 03 - bearsim03.jpg</a>
+        <a href="img/bearsim04.jpg">Bear Simulator Game Review Image 04 - bearsim04.jpg</a>
+        <a href="img/bearsim05.jpg">Bear Simulator Game Review Image 05 - bearsim05.jpg</a>
+        <a href="img/bearsim06.jpg">Bear Simulator Game Review Image 06 - bearsim06.jpg</a>
+        <a href="img/bearsim07.jpg">Bear Simulator Game Review Image 07 - bearsim07.jpg</a>
+        <a href="img/rust01.jpg">Rust Game Review Image 01 - rust01.jpg</a>
+        <a href="img/rust02.jpg">Rust Game Review Image 02 - rust02.jpg</a>
+        <a href="img/rust03.jpg">Rust Game Review Image 03 - rust03.jpg</a>
+        <a href="img/rust04.jpg">Rust Game Review Image 04 - rust04.jpg</a>
+        <a href="img/rust05.jpg">Rust Game Review Image 05 - rust05.jpg</a>
+        <a href="img/rust06.jpg">Rust Game Review Image 06 - rust06.jpg</a>
+        <a href="img/rust07.jpg">Rust Game Review Image 07 - rust07.jpg</a>
+        <p>The below two images are from the font awesome library, however I converted to image format using a converter on the internet so as to not over do the amount of CSS style sheets I were using.</p>
+        <a href="https://fortawesome.github.io/Font-Awesome/
+        ">Font Awesome Library</a>
+        <a href="http://fa2png.io/">Font Awesome to PNG Convertor</a>
+        <a href="img/main-header-logo.png">Main Header Image at the top of this page - main-header-logo.png</a>
+        <a href="img/submit-logo.png">Submit Logo on the Main Index Page in the bottom right column of that page -  submit-logo.png</a>
+        <h3>References and acknowledgements</h3>
+        <p>All game reviews were written and carried out entirely by myself. (Jamie Cropley.)</p>
+        <p>For Game Review Images - with thanks to:</p>
+        <a href="http://bearsimulator.com/
+        ">Bear Simulator</a>
+        <p>and</p>
+        <a href="https://playrust.com
+        ">Rust</a>
+        <p>For all other Images used:</p>
+        <a href="https://fortawesome.github.io/Font-Awesome/
+        ">Font Awesome Library</a>
+        <p>and</p>
+        <a href="http://fa2png.io/">Font Awesome to PNG Convertor</a>
+        <p>For the code of conduct:</p>
+        <a href="http://www.businessballs.com/codeofpractice.htm">Business Balls</a>
+        <p>PHP Submission Script created by Elizabeth Castro:</p>
+        <a href="http://www.elizabethcastro.com/html6ed/examples/forms/showform.php
+        ">Click here for her script</a>
+        <a href="http://www.elizabethcastro.com">Click here for her website</a>
+        <p>JavaScript code written by Martin Stacey:</p>
+        <a href="js/CTEC1800-Stylesheets.js">Click here to view the reffered to Javascript code.</a>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p><i>Site design and coding by: Jamie Cropley - 2016</i></p>
+    </div>
+
+  </body>
+</html>

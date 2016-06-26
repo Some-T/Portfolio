@@ -1,0 +1,361 @@
+/*SECONDARY LAYOUT*/
+
+
+/*MISC / MAIN BODY BEGIN*/
+
+
+body {
+color: black;
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+background-color: white;
+text-align: center;
+}
+
+div.header {
+background-color: white;
+color: #66d9ef;
+margin-bottom: 10px;
+}
+
+img {
+max-height: 100%;
+max-width: 100%;
+height: auto;
+width: auto;
+}
+
+a {
+color: #ff0000;
+text-decoration: none;
+font-weight: bold;
+}
+
+div.td2 li {
+list-style-type: square;
+list-style-position: inside;
+text-align: left;
+}
+
+p {
+margin-top:30px;
+margin-bottom: 30px;
+}
+
+b {
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+
+/*MISC / MAIN BODY END*/
+
+
+/***************************/
+
+
+/*NAVIGATION MENU BEGINNING*/
+
+
+div.nav {
+background-color: white;
+border-color: #66d9ef;
+border-style: solid;
+border-width: 3px;
+float: left;
+font-weight: bold;
+margin-right: 10px;
+position: absolute;
+width: 160px;
+}
+
+div.nav ul {
+background-color: white;
+list-style-type: none;
+margin: 0;
+padding: 0;
+text-decoration: none;
+width: auto;
+}
+
+div.nav li{
+color: #ff0000;
+border-bottom: solid 3px #66d9ef;
+border-top: solid 3px #66d9ef;
+list-style-type: none;
+margin-top: 15px;
+margin-bottom: 15px;
+padding: 2px;
+}
+
+div.nav a {
+color: #ff0000;
+text-decoration: none;
+}
+
+div.nav li:hover {
+background-color: #66d9ef;
+font-weight: bolder;
+text-decoration: none;
+}
+
+div.nav a:hover {
+background-color: #66d9ef;
+color: white;
+font-weight: bolder;
+text-decoration: none;
+}
+
+div.nav select, option {
+color: #ff0000;
+background-color: white;
+font-weight: bold;
+margin-bottom: 15px;
+}
+
+
+/*NAVIGATION MENU END*/
+
+
+/***************************/
+
+
+/*HOME AND MAIN GAME REVIEW PAGE BEGINNING*/
+
+
+/*Defines a table, same as table header below*/
+div.table {
+background-color: white;
+border: 3px solid #66d9ef;
+display:table;
+display:block;
+word-break: break-word; /*Non standard and undocumented way but is kind of an hack to get around the problem I was having with the breaking up of words*/
+margin-left: 175px;
+padding: 6px;
+}
+
+/*tr = defines a row in a table*/
+div.tr {
+border: 1.5px solid #66d9ef;
+display: table-row;
+display:block;
+}
+
+/*th = defines a header in a table, in this instance it is just another table*/
+div.th {
+border: 1.5px solid #66d9ef;
+display: table;
+display:block;
+padding: 10px;
+}
+
+/*td = defines a cell in a table*/
+div.td1 {
+border: 1.5px solid #66d9ef;
+display: table-cell;
+padding: 10px;
+width: 50%;
+}
+
+div.td2 {
+border: 1.5px solid #66d9ef;
+display: table-cell;
+padding: 10px;
+width: 25%;
+}
+
+div.td3 {
+border: 1.5px solid #66d9ef;
+display: table-cell;
+padding: 10px;
+width: 25%;
+}
+
+
+/*HOME AND MAIN GAME REVIEW PAGE END*/
+
+
+/***************************/
+
+
+/*GAME REVIEW PAGES BEGIN*/
+
+div.gamerevimg img {
+height: 25%;
+width: 25%;
+margin-top: 30px;
+margin-bottom: 30px;
+text-align: center;
+}
+
+div.td4 {
+border: 1.5px solid #66d9ef;
+display: table;
+display:block;
+padding: 10px;
+}
+
+div.td4 li {
+list-style-type: square;
+list-style-position: inside;
+text-align: left;
+}
+
+div.td4 p {
+text-align: left;
+}
+
+div.td4 b {
+text-align: left;
+}
+
+div.score-table table  {
+border: 1.5px solid #ff0000;
+border-collapse:collapse;
+border-spacing: 0px;
+padding: 20px;
+margin-left: 0px;
+margin-top: 30px;
+margin-bottom: 30px;
+text-align: left;
+}
+
+div.score-table b {
+margin-top: 30px;
+}
+
+div.score-table th, tr, td  {
+border: 1.5px solid #ff0000;
+border-collapse:collapse;
+border-spacing: 0px;
+padding: 10px;
+}
+
+div.score-table th {
+background-color: #66d9ef;
+color: black;
+}
+
+
+/*GAME REVIEW PAGES END*/
+
+
+/***************************/
+
+
+/*SUBMIT A REVIEW PAGE BEGIN*/
+
+div.td5 {
+border: 1.5px solid #66d9ef;
+display: table;
+display:block;
+padding: 10px;
+text-align: left;
+}
+
+div.td5 form {
+margin-left:10px;
+margin-right:auto;
+overflow:auto;
+}
+
+div.td5 textarea, input[type="text"] {
+margin-right:auto;
+}
+
+
+/*SUBMIT A REVIEW PAGE END*/
+
+/***************************/
+
+
+/*LINKS PAGE BEGIN*/
+
+div.td6 {
+border: 1.5px solid #66d9ef;
+display: table;
+display:block;
+padding: 10px;
+}
+
+div.td6 a {
+padding: 10px;
+display:block;
+}
+
+
+/*LINKS PAGE END*/
+
+
+/***************************/
+
+
+/*EXPLANATION PAGE BEGIN*/
+
+
+div.td7 {
+border: 1.5px solid #66d9ef;
+display: table;
+display:block;
+padding: 10px;
+text-align: left;
+}
+
+div.td7 a {
+padding: 10px;
+display:block;
+}
+
+div.td7 p {
+padding: 10px;
+display:block;
+}
+
+div.td7 b {
+padding: 10px;
+display:block;
+}
+
+
+/*EXPLANATION PAGE END*/
+
+
+/***************************/
+
+
+/*CONTACT PAGE BEGIN*/
+
+
+div.td8 {
+border: 1.5px solid #66d9ef;
+display: table;
+display:block;
+padding: 10px;
+text-align: left;
+}
+
+div.td8 form {
+margin-left:10px;
+margin-right:auto;
+overflow:auto;
+}
+
+div.td8 textarea, input[type="text"] {
+margin-right:auto;
+}
+
+
+/*CONTACT PAGE END*/
+
+
+/***************************/
+
+
+/*FOOTER CONTENT BEGINNING*/
+
+
+div.footer p i{
+text-shadow: 2px 2px #66d9ef ;
+}
+
+
+/*FOOTER CONTENT END*/

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+	<head>
+		<title>GAME PLACE - Game Reviews</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
+		<link title="bigsheet" rel="stylesheet" type="text/css" href="css/css-default.css" />
+		<link title="mediumsheet" rel="alternate stylesheet" type="text/css" href="css/css-two.css" />
+		<link title="smallsheet" rel="alternate stylesheet" type="text/css" href="css/css-three.css" />
+		<link title="specialsheet" rel="alternate stylesheet" type="text/css" href="css/css-four.css" />
+		<script type="text/javascript" src="js/CTEC1800-Stylesheets.js" ></script>
+	</head>
+	
+	<body onload="chooseStyleBySize()" onresize="chooseStyleBySize()">
+		
+		
+		
+		<div class="header">
+			<img src="img/main-header-logo.png" alt="Main Header" />	 <h1>GAME PLACE</h1>
+		</div>
+		<div class="nav">
+			<ul>
+				<li><a href="main-index-page.xhtml">Home</a></li>
+				<li><a href="game-review-main.xhtml">Game Reviews</a></li>
+				<li><a href="review-submit-page.xhtml">Submit A Review</a></li>
+				<li><a href="links-page.xhtml">Links</a></li>
+				<li><a href="explanation-page.xhtml">Explanation Page</a></li>
+				<li><a href="contact-page.xhtml">Contact</a></li>
+			</ul>
+			
+			<select onchange="setActiveStyle(this.value)">
+				<option value="bigsheet">Change Layout...</option>
+				<option value="bigsheet">Main Style</option>
+				<option value="mediumsheet">Second Style</option>
+				<option value="smallsheet">Mobile Style</option>
+				<option value="specialsheet">Accessibility Style</option>
+			</select>
+			
+		</div>
+		<div class="table">
+			
+			<div class="tr">
+				<div class="th">
+					<h2>Game Reviews</h2>
+				</div>
+			</div>
+			<div class="td1">
+				<h3>Bear Simulator</h3>
+				
+				
+				<a href="game-review-page1.xhtml"><img src="img/bearsim01.jpg" alt="Bear Sim Img 01"/></a>
+				
+				
+				
+				<p><a href="game-review-page1.xhtml"><b>BEAR SIMULATOR</b></a> is a game as much as it is a simulator,
+				based on the elements of sattire throughout it fits more into
+				a playful type of genre than actually being a realistic representation
+				of what it is like to be a bear. Looking at this from the angle of a game
+				rather than a simulator makes it more enjoyable and playable.
+				
+			One of the key elements that stuck out to me from the start were...</p>
+		</div>
+		<div class="td1">
+			<h3>Rust</h3>
+			
+			<a href="game-review-page2.xhtml"><img src="img/rust01.jpg" alt="Rust Img 01"/></a>
+			<p>
+				<a href="game-review-page2.xhtml"><b>RUST</b></a> is a multiplayer game where you wake up in a field naked, with only a rock and a flame torch, your goal is to survive throughout the environment, build, flourish and defend yourself against other players. From the onset you feel immense fear from all of what you are up against, it can be difficult to plan what to do at first in this respect...
+			</p>
+		</div>
+	</div>
+	
+	<div class="footer">
+		<p><i>Site design and coding by: Jamie Cropley - 2016</i></p>
+	</div>
+
+</body>
+</html>
