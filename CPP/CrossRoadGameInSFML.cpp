@@ -34,7 +34,7 @@ sf::Text textScore("Score: ", fontGlobal, 14);
 sf::Text textTimer("Time: ", fontGlobal, 14);
 sf::Text textHighScore("High Score: ", fontGlobal, 14);
 sf::Text textLives("Lives Left: ", fontGlobal, 14);
-sf::RenderWindow window(sf::VideoMode(800, 600), "Cross Road - By Jamie Cropley - P15188432", sf::Style::Close);
+sf::RenderWindow window(sf::VideoMode(800, 600), "Cross Road - By Jamie Cropley", sf::Style::Close);
 sf::RectangleShape doors[6];
 
 //Global Variables:
