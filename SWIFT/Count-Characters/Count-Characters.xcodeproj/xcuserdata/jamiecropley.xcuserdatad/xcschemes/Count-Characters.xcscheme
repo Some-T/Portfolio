@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3F263C061D281AF500A4FC9D"
+               BlueprintIdentifier = "3FEB93711D281CA9006BD1A4"
                BuildableName = "Count-Characters"
                BlueprintName = "Count-Characters"
                ReferencedContainer = "container:Count-Characters.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3F263C061D281AF500A4FC9D"
+            BlueprintIdentifier = "3FEB93711D281CA9006BD1A4"
             BuildableName = "Count-Characters"
             BlueprintName = "Count-Characters"
             ReferencedContainer = "container:Count-Characters.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3F263C061D281AF500A4FC9D"
+            BlueprintIdentifier = "3FEB93711D281CA9006BD1A4"
             BuildableName = "Count-Characters"
             BlueprintName = "Count-Characters"
             ReferencedContainer = "container:Count-Characters.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3F263C061D281AF500A4FC9D"
+            BlueprintIdentifier = "3FEB93711D281CA9006BD1A4"
             BuildableName = "Count-Characters"
             BlueprintName = "Count-Characters"
             ReferencedContainer = "container:Count-Characters.xcodeproj">
