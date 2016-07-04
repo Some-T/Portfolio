@@ -10,7 +10,6 @@ import Foundation
 extension String {
     var isBlank: Bool {
         if self.isEmpty { return true }
-        
         return stringByTrimmingCharactersInSet(.whitespaceCharacterSet()) == ""
     }
 }
