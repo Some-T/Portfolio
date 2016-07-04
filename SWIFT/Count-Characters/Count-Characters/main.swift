@@ -7,21 +7,19 @@
 
 import Foundation
 
-func input() -> String {
-    let keyboard = NSFileHandle.fileHandleWithStandardInput()
-    let data = keyboard.availableData
-    return NSString(data: data, encoding: NSUTF8StringEncoding) as! String
-}
-
 var enteredName: String = "";
+var lgnth:Int = 0;
 
-if enteredName.isEmpty {
-    print("You did not enter anything!")
-}
+
 
 print("Please enter your name: ")
-enteredName = input()
-print("Hello " + enteredName)
 
-var lgnth = enteredName.characters.count
-print("Your name contains: \(lgnth) characters")	
+if let enteredName = readLine() {
+    print("Hello " + enteredName)
+    lgnth = enteredName.characters.count;
+    print("Your name contains: \(lgnth) characters")
+}
+
+if lgnth <= 0{
+    print("You did not enter anything!")
+}
