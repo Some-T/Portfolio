@@ -7,19 +7,21 @@
 
 import Foundation
 
-var enteredName: String = "";
-var lgnth:Int = 0;
-
-
+extension String {
+    var isBlank: Bool {
+        if self.isEmpty { return true }
+        
+        return stringByTrimmingCharactersInSet(.whitespaceCharacterSet()) == ""
+    }
+}
 
 print("Please enter your name: ")
 
-if let enteredName = readLine() {
-    print("Hello " + enteredName)
-    lgnth = enteredName.characters.count;
-    print("Your name contains: \(lgnth) characters")
-}
-
-if lgnth <= 0{
-    print("You did not enter anything!")
+let input = readLine(stripNewline: true) ?? ""
+switch input.isBlank {
+case true:
+    print("You did not enter anything")
+default:
+    print(input)
+    print("Your name contains: \(input.characters.count) characters")
 }
