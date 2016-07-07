@@ -1,10 +1,14 @@
 -- Haskell Playground 1.0
 length ("Jamie")
 --The above determines length 
+
 length ("Hello " ++ "World!")
 --The above determines length using concenated words
+
 inc 5
---the above is the evalulation of the function inc x = x + 1
+--The above is the evaluation of the function inc x = x + 1
 
 f 1
+--The above is the evaluation of the function f(x) = x + 1
 
+--following tutorial on http://learn.hfm.io
