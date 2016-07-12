@@ -1,4 +1,4 @@
-
+-- PART 1 http://learn.hfm.io/first_steps.html
 
 
 
@@ -66,4 +66,13 @@ showResult show = 123
 
 
 
+
 showAreaOfCircle r = pi*r^2
+
+
+
+
+-- PART 2: http://learn.hfm.io/fundamentals.html
+
+
+

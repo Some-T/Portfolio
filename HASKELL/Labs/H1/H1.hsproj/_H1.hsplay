@@ -1,9 +1,0 @@
--- Haskell Playground 1.0
--- http://www.tech.dmu.ac.uk/~drs/ctec1901/fp/H1.html
-
--- 1: Completed outside of this software.
-
---2: Enter if using terminal version `:set +t` in this software it does this automatically on the far right hand side as per below input:
-
-40 + 2
-
