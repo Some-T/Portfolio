@@ -1,4 +1,3 @@
---PART 1
 
 
 
@@ -68,16 +67,3 @@ showResult show = 123
 
 
 showAreaOfCircle r = pi*r^2
-
-
-
-
-
---PART 2
-
-max x y = if x >= y then x else y
-
-
-
-
---PART 3
