@@ -4,3 +4,5 @@
 --2: Enter if using terminal version `:set +t` in this software it does this automatically on the far right hand side as per below input:
 
 40 + 2
+
+{- The value 42 is, of course, the result of the addition. Underneaththe word it refers to the most recently evaluated thing (in this case, 42)the double colon :: introduces the value's typethe word Integer says that the type of it (42) is an Integer -}
