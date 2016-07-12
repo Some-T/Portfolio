@@ -1,8 +1,23 @@
 -- Haskell Playground 1.0
 -- 1: Completed outside of this software.
 
---2: Enter if using terminal version `:set +t` in this software it does this automatically on the far right hand side as per below input:
+-- 2: Enter if using terminal version `:set +t` in this software it does this automatically on the far right hand side as per below input:
 
 40 + 2
 
-{- The value 42 is, of course, the result of the addition. Underneaththe word it refers to the most recently evaluated thing (in this case, 42)the double colon :: introduces the value's typethe word Integer says that the type of it (42) is an Integer -}
+{- The value 42 is, of course, the result of the addition. Underneath the word it refers to the most recently evaluated thing (in this case, 42) the double colon :: introduces the value's type the word Integer says that the type of it (42) is an Integer -}
+
+-- 3:
+
+
+
+2 + 3 * 4(2 + 3) * 42 * (3 - 4)7 `mod` 48 `mod` 49 `mod` 423 `div` 423 `div` 4 `div` 2(1 + 2 * 3 - 4) `mod` 52 ^ 3(2 ^ 3) ^ 42 ^ 3 ^ 42 ^ 32 - 1(10 ^ 10) ^ 101 ^ 2 + 2 ^ 2 - 3 ^ 21 - (-2) + (-3) - 4TrueFalsenot Truenot Falsenot (not True)True && FalseFalse || TrueTrue || not TrueFalse && not False(2 == 2)(2 /= 2)(2 < 4) && not FalseTrue == FalseFalse /= Truenot (4 > 2)('a' < 'z') && ('A' < 'Z')2/30/3
+3/03/0 - 3/01.2 + 31.2 + 3.0floor 1.2ceiling 1.2
+floor (1.2 + 3.0)1.2 + fromIntegral 3sqrt 2525 ** 0.525 ** 0.581**0.25(sqrt (81**0.25)) ** 2sin (pi/2)
+
+
+-- 4:
+
+
+'A''\n''\0''\t''\\'fromEnum 'A'fromEnum 'A' + 32toEnum 97
+toEnum 97 :: InttoEnum 97 :: ChartoEnum 1 :: Bool'a' > 'b''a' < 'b''a' /= 'b'fromEnum('a' == 'b')fromEnum('a' /= 'b')""'a' : ""'a' : 'b' : ""'a' : 'b' : "" == "ab""abc" ++ "def""abc" ++ "def" ++ "ghi""abc" ++ """" ++ "abc"reverse "abc"reverse (reverse "abc")length "abc"length (reverse "abc")reverse "leh" ++ "lo"head "abcd"tail "abcd"reverse (tail "abcd")head "ab" : tail "abcd"show Truereverse (show True)show piread "100" :: Intread "100" :: Floatread "False" :: Bool(+) 7 3(-) 7 3(*) 7 3(/) 7 3div 7 3mod 7 3(^) 7 3(+) 1 ((*) 2 3)(||) True False(&&) True False(++) "abc" "def"(:) 'a' "bc"(+1) 2(*2) 3(/2) 5(^2) 5(2^) 5("ab" ++) "cd"(++ "ab") "cd"
