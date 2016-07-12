@@ -3,7 +3,7 @@
 
 -- 1: Completed outside of this software.
 
---2: Enter if using terminal version `:set +t` in this software it does this automatically on the far right hand side as per below.
+--2: Enter if using terminal version `:set +t` in this software it does this automatically on the far right hand side as per below input:
 
 40 + 2
 
