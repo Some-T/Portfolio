@@ -57,9 +57,13 @@ square x = x * x
 
 
 
-showResult show = "Testing" ++ 123
+showResult show = 123
 
 
 
 
-showAreaOfCircle show r = pi*r^2
+
+
+
+
+showAreaOfCircle r = pi*r^2

@@ -58,12 +58,13 @@ square 0
 
 --5:
 
-showResult show
+"The result is: " ++ show (showResult show) 
 
 
 
 --6:
 
-showAreaOfCircle show 12.3
+--showAreaOfCircle show 12.3
 
 
+"The area of a circle with radius 12.3cm is about " ++ show (showAreaOfCircle 12.3) ++ " cm^2"
