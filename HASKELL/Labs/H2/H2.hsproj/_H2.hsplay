@@ -1,0 +1,176 @@
+-- Haskell Playground 1.0
+-- http://www.tech.dmu.ac.uk/~drs/ctec1901/fp/H2.html
+
+-- 1:
+
+if True then "bc" else "de"
+if False then "bc" else "de"
+1 + if 2==2 then 3 else 4
+1 + if 2/=2 then 3 else 4
+(if 2/=2 then reverse else tail) "abc"
+let x = 3 in x + 1
+let x = 3 in x * x + x
+let x = 3 in let y = 4 in x + y
+let x = 3 in let x = 4 in x
+let {x = 3; y = 4} in x + y
+let x = 3 in let y = x + 1 in y * 10
+let x = not True in if x then x else not x
+let {s = "One"; t = "Two"} in s ++ t
+let {s = "One"; t = "Two"} in length s + length t
+let {s = "One"; t = "Two"} in reverse s ++ reverse t
+words "This contains four words"
+unwords (reverse (words "This contains four words"))
+length (words "This contains four words")
+lines "Ensanguining the sky\nHow heavily it dies\nInto the West away.\n"
+putStr "Ensanguining the sky\nHow heavily it dies\nInto the West away.\n"
+putStr (unlines [ replicate n '*' | n <- [1..10] ])
+
+
+-- 2:
+
+(2 ,pi)
+
+(pi, 2)
+
+fst (2, pi)
+
+snd (2, pi)
+
+(1,2,pi)
+
+((1,2),pi)
+
+(1,(2,pi))
+
+fst ((1,2),pi)
+
+snd (fst ((1,pi),2))
+
+
+-- 3:
+
+two + two
+
+two * length name
+
+
+-- 4:
+
+fullname
+
+namelen
+
+
+-- 5: 
+
+
+--unknown
+
+--infinity
+
+--insanity
+
+--one
+
+--two2
+
+sleep
+
+--w
+--x
+--y
+--z
+
+--The above aspects are commented out as kept crashing computer due to its processing power.
+
+
+-- 6:
+
+addOne 2
+
+timesTwo 2
+
+doublePlusOne 5
+
+largerOf2 2 4
+
+largerOf3 2 4 8
+
+sumTo 3
+
+countWords "test word count"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- 7:
+
+double 2
+
+factorial 5
+
+average (22,68)
+
+
+average' (28,62)
+
+
+
+
+
+
+
+
+
+
+-- 8:
+
+
+-- 8.1:
+
+(2 ^ 3) * 4
+
+(2 * 3) + (4 * 5)
+
+2 + (3 *(4 ^ 5))
+
+
+-- 8.2:
+
+-- Examples have been worked through.
+
+
+-- 8.3:
+
+{- The required fixes are: - function name has to be lower case - div has to be enclosed in backticks - in the where clause, the variable names have to be aligned to the left -}
+
+
+
+-- 8.4:
+
+-- As per module column from this line (line 161)
+
+
+
+
+
+
+
+
+
+
+
+-- 8.5: 
+
+-- -- As per module column from this line (line 176)
