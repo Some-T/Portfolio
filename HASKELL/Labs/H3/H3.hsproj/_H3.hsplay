@@ -1,0 +1,237 @@
+-- Haskell Playground 1.0
+-- http://www.tech.dmu.ac.uk/~drs/ctec1901/fp/H3.html
+
+-- 1:
+
+-- a:
+
+['a', 'e', 'i', 'o', 'u']
+
+['a',' ','e',' ','i',' ','o',' ','u']
+
+
+-- b:
+
+-- putting the word `show` in front of the below char will turn it into a string. 
+
+["Spring","Summer","Winter","Autumn"]
+
+
+-- c:
+
+[True,True,False,True]
+
+
+-- d:
+
+[[filter odd [1..9]]][[filter even [2..10]]]
+
+
+-- e:
+
+show [1,3,5,7,9]
+
+
+
+
+--2:
+
+
+-- a:
+
+-- Tuples are basically mixed lists.
+
+(10, True)
+
+
+-- b: 
+
+(10, True)
+
+
+
+-- c:
+
+("a",10.0)
+
+
+-- d:
+
+('a',True)
+
+
+-- e:
+
+(True,10,"a")
+
+
+-- f:
+
+(True,(10,["a"]))
+
+-- An example below of how to force the number to come through as Integer type.
+
+(True,(10:: Integer,["a"]))
+
+
+-- g:
+
+((True,10),["a"])
+
+
+-- h:
+
+((True,False),(10,10.5))
+
+
+-- i:
+
+([(True,10)],["a"])
+
+
+
+-- 3:
+
+-- a, b, and c:
+
+-- add:
+
+add (5,5)
+
+
+-- join:
+
+join ("Jamie","Cropley")
+
+
+-- sumFromTo:
+
+
+sumFromTo (5,10)
+
+
+-- volumeCylinder:
+ 
+volumeCylinder (518,262)
+
+
+-- mult:
+
+mult (2,2,2)
+
+
+-- roots:
+
+roots (1,2,3)
+
+
+-- d:
+
+-- Currying in a sense is kind of removing the brackets.
+
+-- Currying is the process of transforming a function that takes multiple arguments into a function that takes just a single argument and returns another function if any arguments are still needed.
+
+-- add:
+
+add_ 5 5
+
+-- join:
+
+join_ "Jamie " "Cropley"
+
+
+-- sumFromTo:
+
+
+sumFromTo_ 5 10
+
+
+-- volumeCylinder:
+ 
+volumeCylinder_ 518 262
+
+
+-- mult:
+
+mult_ 2 2 2
+
+
+-- roots:
+
+roots_ (1,2,3)
+
+
+-- 4:
+
+-- a:
+
+min3 8 2 87
+
+
+-- b:
+
+max4 8 2 87 98
+
+
+-- c:
+
+allTheSame 1 1 1
+
+
+-- d: 
+
+anyTwoTheSame 1 0 1
+
+
+-- e:
+
+noneTheSame 1 2 3
+
+
+-- f: 
+
+finalSpeed 5 6 8
+
+
+-- g: 
+
+intoList 1 2 3
+
+
+-- h:
+
+intoTuple 1 2 3
+
+
+
+-- 5:
+
+-- As per book:
+
+
+-- 1. What are the types of the following values?
+-- ['a', 'b', 'c'] :: [Char]
+-- ('a', 'b', 'c') :: (Char, Char, Char)
+-- [(False , 'O'), (True, '1')] :: [(Bool, Char)]
+-- ([False , True ], ['0', '1']) :: ([Bool], [Char])
+-- [tail , init , reverse ] :: [[a] -> [a]]
+
+-- 2. What are the types of the following functions?
+-- second xs = head (tail xs) -- second :: [a] -> a
+-- swap (x , y) = (y, x)      -- swap :: (t1, t) -> (t, t1)
+-- pair x y = (x , y)         -- pair :: t -> t1 -> (t, t1)
+-- double x = x * 2           -- double :: Num a => a -> a
+-- palindrome xs = reverse xs == xs -- palindrome :: Eq a => [a] -> Bool
+-- twice f x = f (f x )       -- twice :: (t -> t) -> t -> t
+-- Hint: take care to include the necessary class constraints if the functions
+-- are defined using overloaded operators.
+
+-- 3. Check your answers to the preceding two questions using Hugs.
+
+-- 4. Why is it not feasible in general for function types to be instances of the
+-- Eq class? When is it feasible? Hint: two functions of the same type are
+-- equal if they always return equal results for equal arguments.
+
+
+
+
