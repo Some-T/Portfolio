@@ -12,7 +12,7 @@
 
 -- b:
 
--- putting the word `show` in front of the below char will turn it into a string. 
+-- Putting the word `show` in front of the below char will turn it into a string. 
 
 ["Spring","Summer","Winter","Autumn"]
 
