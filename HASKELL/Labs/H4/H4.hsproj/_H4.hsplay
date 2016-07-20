@@ -1,0 +1,120 @@
+-- Haskell Playground 1.0
+-- http://www.tech.dmu.ac.uk/~drs/ctec1901/fp/H4.html
+
+-- 1:
+
+add 3 3 3
+
+
+-- a:
+
+append [544554] [454554]
+
+-- b:
+
+
+swap (10,5)
+
+-- c:
+
+block (5,10)
+
+
+
+-- d:
+
+velocity 5 82 68
+
+
+-- e:
+
+hash (8*3) 
+
+-- f:
+
+smallest 98 3 82
+
+-- g:
+
+largest 98 3 82
+
+-- h:
+
+bigSmall 98 3 82
+
+
+-- i:
+
+upDown 5 8 99 82
+
+-- j:
+
+bracket "Jamie in Brackets"
+
+-- k:
+
+identity 56
+
+-- l:
+
+twice 50
+
+-- m:
+
+constant 52 82
+
+-- n:
+
+apply (+1) 2
+
+-- o:
+
+zeroSum (+1) 2
+
+-- p:
+
+zeroSum (+1) 2
+
+
+
+-- 2:
+
+-- a:show (2::Int)--The above overloaded function is showing a number as a string when it should be an Int-- b:show pi--The above overloaded function is showing pi in reduced form.-- c:show True
+--The above overloaded function is showing boolean for True value as a string.-- d:show 'X'--The above overloaded function is showing a char as a string type.-- e:show "abc"--The above overloaded function is showing abc as string type.-- f:show (2::Int,"abc")--The above overloaded function is a mix of string and int type but is only displaying string type.-- g:show [(1,'a'),(2,'b'),(3,'c')]--The above overloaded function is showing string type when it should be char types.-- h:read "2" :: Int --The above overloaded function is working correctly by displaying Int.-- i:read "2" :: Integer --The above overloaded function is is working correctly by displaying Int.-- j:read "2" :: Float--The above overloaded function is is showing the correct type of float.-- k:read "2" :: Double--The above overloaded function is showing double correctly as it should and in terms of the type also.-- l:read "  2" :: Int--The above overloaded function is showing correctly.-- m:read "'a'" :: Char--The above overloaded function is forced to show as a char correctly.-- n:read "\"abc\"" :: String--The above overloaded function is showing type string correctly.-- o:read "(1,2)" :: (Int,Float)--The above overloaded function is showing types Int and Float correctly.-- p:read "True" && False--The above overloaded function is showing type Bool correctly.-- q:read "3" + (5::Int)--The above overloaded function is showing type int correctly.-- r:read "2.0" * pi--The above overloaded function is working correctly and reading type float correctly.-- s:show (read "2.0" :: Float)-- The above overloaded function is not showing type float correctly it is displaying as type string.-- t:read (show pi) :: Float-- The above overloaded function is displaying correctly as float.
+
+
+
+-- 3:
+
+
+-- a:
+
+
+
+
+funcAdd (18,5,8,6)
+
+
+
+
+
+-- b:
+
+aString "Hello" "gfdfgd"
+
+aString_ "Hello" "fgdgdf"
+
+
+-- c:
+
+mult_ 5 8 6
+
+
+-- d:
+
+allTheSame 1 0
+
+
+-- e:
+
+-- Unknown as of yet.
