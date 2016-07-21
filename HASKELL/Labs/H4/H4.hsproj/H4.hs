@@ -127,5 +127,5 @@ allTheSame a b = (a == b)
 
 
 -- e:
-
--- Unknown as of yet.
+e :: (Int -> Int) -> (Int -> Int) -> Int
+e f g = f 1 + g 2

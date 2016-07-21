@@ -117,4 +117,5 @@ allTheSame 1 0
 
 -- e:
 
--- Unknown as of yet.
+e (+2) (*6)
+
