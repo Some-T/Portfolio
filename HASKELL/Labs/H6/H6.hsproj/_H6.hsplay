@@ -1,0 +1,130 @@
+-- Haskell Playground 1.0
+-- http://www.tech.dmu.ac.uk/~drs/ctec1901/fp/H6.html
+
+-- 1:
+
+-- a:
+
+zoe 1
+
+
+-- b:
+
+pal "dud"
+pal "Dud"
+pal "Duf"
+
+
+-- c:
+
+upr 'a'
+upr 'B'
+upr '8'
+
+
+
+
+
+-- 2:
+
+-- a:
+
+a
+
+
+-- b:
+
+b
+
+
+-- c:
+
+c
+
+
+-- d:
+
+d
+
+
+-- e:
+
+e
+
+
+-- f:
+
+f
+
+
+-- g:
+
+g
+
+
+
+-- h:
+
+
+h
+
+
+
+-- 3:
+
+
+--a:
+
+
+aa
+
+ 
+
+--b:
+
+
+
+bb
+
+
+
+--c:
+
+
+cc
+
+
+
+--d:
+
+
+dd
+
+--e:
+
+ee
+
+--f:
+
+
+ff
+
+--g:
+
+
+gg
+
+
+--h:
+
+hh
+
+--i:
+
+
+ii
+
+
+--j:
+
+jj
