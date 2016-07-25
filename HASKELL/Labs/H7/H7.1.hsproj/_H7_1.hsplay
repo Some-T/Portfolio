@@ -1,0 +1,30 @@
+-- Haskell Playground 1.0
+lowers "jamie"
+lowers "Jamie"
+
+
+
+count 'a' "jamie"
+
+positions 'a' "jamie"
+
+
+let2int 'a'
+
+int2let 1
+
+shift 5 'a'
+
+encode 4 "jamie"
+
+table
+
+percent 22 28
+
+freqs "jamie"
+
+chisqr [5.8] [2.8]
+
+rotate 5 [1]
+
+crack "Jamie"
