@@ -1,0 +1,35 @@
+-- Haskell Playground 1.0
+--http://www.tech.dmu.ac.uk/~drs/ctec1901/fp/H8.html
+
+
+-- 1:
+
+rev "hello"
+
+
+-- 2:
+
+rpt 5 "Jamie"
+rpt 5 'j'
+
+
+-- 3:
+
+
+unwrds ["Jamie","Cropley"]
+
+
+
+-- 4:
+
+subSeq 9 5
+
+
+-- 5:
+
+innerProduct [8] [5]
+-- The above is basically 8 * 5= 40
+
+-- 6:
+
+merge [8,50,5,62] [5,5,2,3,6]

@@ -1,4 +1,6 @@
 -- Haskell Playground 1.0
+-- http://www.tech.dmu.ac.uk/~drs/ctec1901/fp/H7.html
+
 lowers "jamie"
 lowers "Jamie"
 

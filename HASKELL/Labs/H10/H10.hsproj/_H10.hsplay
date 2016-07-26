@@ -1,0 +1,32 @@
+-- Haskell Playground 1.0
+-- http://www.tech.dmu.ac.uk/~drs/ctec1901/fp/H10.html
+
+-- 1:
+
+
+leaves t1
+
+
+-- 2:
+
+asList t1
+
+
+-- 3:
+
+reflect t1
+
+
+-- 4:
+
+height t1
+
+
+-- 5:
+
+mapTree (+5) t1
+
+-- 6:
+
+contains t1 1
+contains t1 80
