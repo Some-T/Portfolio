@@ -112,4 +112,14 @@ object Form1: TForm1
     Left = 128
     Top = 56
   end
+  object ApplicationEvents1: TApplicationEvents
+    OnMinimize = ApplicationEvents1Minimize
+    Left = 152
+    Top = 256
+  end
+  object TrayIcon1: TTrayIcon
+    OnDblClick = TrayIcon1DblClick
+    Left = 200
+    Top = 256
+  end
 end

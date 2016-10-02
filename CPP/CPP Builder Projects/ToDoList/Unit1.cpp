@@ -103,3 +103,23 @@ CheckListBox1->Clear();
 
 
 
+void __fastcall TForm1::ApplicationEvents1Minimize(TObject *Sender)
+{
+  Hide();
+  WindowState = wsMinimized;
+  TrayIcon1->Visible = true;
+  TrayIcon1->Animate = true;
+  TrayIcon1->ShowBalloonHint();
+}
+//---------------------------------------------------------------------------
+
+
+void __fastcall TForm1::TrayIcon1DblClick(TObject *Sender)
+{
+  TrayIcon1->Visible = false;
+  Show();
+  WindowState = wsNormal;
+  Application->BringToFront();
+}
+//---------------------------------------------------------------------------
+
